@@ -1,0 +1,15 @@
+{
+  "name": "wingo-8x-streak-bot",
+  "version": "1.0.0",
+  "description": "24/7 Free WinGo Streak Alert Bot (30s, 1M, 3M, 5M) for WhatsApp & Telegram",
+  "main": "wingo_streak_notifier.js",
+  "scripts": {
+    "start": "node wingo_streak_notifier.js",
+    "record": "node scripts/cloud_unlimited_recorder.js",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend dev"
+  },
+  "keywords": ["wingo", "streak-notifier", "whatsapp-alert"],
+  "author": "",
+  "license": "ISC"
+}
